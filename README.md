@@ -6,7 +6,8 @@ An end-to-end data pipeline using Python, Databricks, and Azure to ingest sports
 
 ## 📊 Architecture
 
-![Architecture Diagram](<img width="750" height="391" alt="diagram" src="https://github.com/user-attachments/assets/594a33db-c9dd-45ab-aae0-5ab6c55c379f" />)
+![Architecture Diagram](<img width="750" height="391" alt="diagram" src="https://github.com/user-attachments/assets/19010a9b-59d0-483b-a2bd-ee5ebd173691" />)
+
 
 ## 🧱 Tools Used
 - Python
