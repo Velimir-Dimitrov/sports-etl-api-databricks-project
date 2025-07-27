@@ -36,4 +36,5 @@ This project uses public sports data from [TheSportsDB API](https://www.thesport
 - Data Format: JSON with fields like event name, date, venue, status, etc.
 
 ## Future Enhancements
+- Add loguru Logging to the notebooks
 - Add Power BI dashboard
