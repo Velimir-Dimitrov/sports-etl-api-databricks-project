@@ -3,7 +3,7 @@
 ## Overview
 
 This project is an end-to-end data engineering pipeline using Python, Databricks, and Azure to ingest, process, and store sports event data retrieved via a public API (TheSportsDB). It demonstrates how to:
-- Extract season-based sports event data (e.g., UFC events) using REST APIs
+- Extract season-based sports event data (e.g., UFC events) using REST APIs and Python
 - Transform the raw JSON using PySpark in a Databricks notebook
 - Load curated data into Azure Data Lake Storage (ADLS) and optionally into Synapse Analytics for downstream use
 
@@ -27,13 +27,13 @@ This pipeline reflects real-world scenarios in data engineering, including raw d
 - Azure Synapse Analytics
 
 ## Data Source
-- [TheSportsDB API](https://www.thesportsdb.com/api.php)
-
-## Process
-1. **Extract** data from sports API using Python
-2. **Load** raw data to Azure Blob Storage
-3. **Transform** using PySpark in Databricks
-4. **Load** to Synapse Analytics for querying
+This project uses public sports data from [TheSportsDB API](https://www.thesportsdb.com/).
+- API URL: https://www.thesportsdb.com/api/v1/json/<API_KEY>/
+- Purpose: Retrieve season-level event data (e.g., UFC events in 2025).
+- Authentication: The API key is required and hidden using Databricks Secrets for security.
+- API Key Access: A free key can be obtained from the documentation
+- Supported Sports: UFC, Soccer, Basketball, NFL, Baseball, etc.
+- Data Format: JSON with fields like event name, date, venue, status, etc.
 
 ## Future Enhancements
 - Add Power BI dashboard
